@@ -7,7 +7,6 @@ I detect, contain, and respond to real-world security incidents — not just in 
 📍 Valencia, Spain &nbsp;|&nbsp; 🎓 ASIR + Cybersecurity Specialization (CIPFP Cheste) &nbsp;|&nbsp; 🛡️ Blue Team focused
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorgecorteshernandez)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jorgecortes6664@gmail.com)
 
 ---
 
@@ -134,4 +133,3 @@ Spanish (Native) · Valencian (C1) · English (B2)
 I'm actively looking for opportunities in SOC / Blue Team roles. Feel free to reach out:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorgecorteshernandez)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jorgecortes6664@gmail.com)
