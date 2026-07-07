@@ -91,17 +91,15 @@ Hands-on offensive practice to sharpen the defensive mindset — full end-to-end
 
 ## 📌 Featured Projects
 
-### 🔐 [SecPass](#) *([link to repo](https://github.com/Botonsolo/secPass))*
+### 🔐 [SecPass](#) *([link to repo](https://github.com/Botonsolo/secPass))* — Password Manager
 A security-first password manager built to address a real problem: password disorder, credential reuse, and predictable/personally-guessable passwords. Designed with a documented threat model, defense-in-depth principles, and a roadmap toward a hardened client-server architecture.
 
 
-### 🏛️ [SecPass](#) *(https://github.com/joliher/munisec)* — Secure Municipal Infrastructure    
+### 🏛️ [SecPass](#) *([link to repo](https://github.com/joliher/munisec))* — Secure Municipal Infrastructure    
 
 A full-scope cybersecurity project simulating the complete IT infrastructure of a municipal government (Ayuntamiento de Guarromán), built with a team of 8 security specialists over two months. The lab deployed two VPN-connected sites (main office + secondary building) with segmented VLANs, Active Directory, a DMZ, and a working SOC — then subjected the environment to real penetration testing (both internal and from a rival red team) and an actual disaster-recovery scenario after an electrical storm took down the primary VPN infrastructure.
 
 Scope covered: network architecture & VLAN segmentation · SOC/SIEM (Wazuh, Suricata) · deep hardening (2FA, iptables) · incident response & disaster recovery · digital forensics (memory analysis, automation scripts) · OSINT reconnaissance methodology · full red team engagement (initial access → root) · ENS/RGPD regulatory compliance mapping.
-
-I contributed as part of this team — see CONTRIBUTORS.md for the full breakdown of individual roles across infrastructure, pentesting, scripting, and documentation.
 
 Note: hosted in a teammate's repository as the project's central hub
 ---
