@@ -84,7 +84,7 @@ Hands-on offensive practice to sharpen the defensive mindset — full end-to-end
 | **HackMyVM** | Soc1, gift, Hunter |
 | **VulnHub** | LazySysAdmin, Thales |
 
-📄 Write-ups for each machine available in [`security-writeups`](#) *(link to your write-ups repo once created)*
+📄 Write-ups for each machine available in [`security-writeups`](#) 
 
 ---
 
