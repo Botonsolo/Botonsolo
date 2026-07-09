@@ -90,11 +90,12 @@ Hands-on offensive practice to sharpen the defensive mindset — full end-to-end
 
 ## 📌 Featured Projects
 
-### 🔐 [SecPass](https://github.com/Botonsolo/secPass) *([link to repo]())* — Password Manager
+### 🔐 [SecPass](https://github.com/Botonsolo/secPass) — Password Manager
+
 A security-first password manager built to address a real problem: password disorder, credential reuse, and predictable/personally-guessable passwords. Designed with a documented threat model, defense-in-depth principles, and a roadmap toward a hardened client-server architecture.
 
 
-### 🏛️ [SecPass](https://github.com/joliher/munisec) *([link to repo]())* — Secure Municipal Infrastructure    
+### 🏛️ [MuniSec](https://github.com/joliher/munisec) — Secure Municipal Infrastructure    
 
 A full-scope cybersecurity project simulating the complete IT infrastructure of a municipal government (Ayuntamiento de Guarromán), built with a team of 8 security specialists over two months. The lab deployed two VPN-connected sites (main office + secondary building) with segmented VLANs, Active Directory, a DMZ, and a working SOC — then subjected the environment to real penetration testing (both internal and from a rival red team) and an actual disaster-recovery scenario after an electrical storm took down the primary VPN infrastructure.
 
