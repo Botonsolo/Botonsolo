@@ -1,4 +1,4 @@
-# Hi, I'm Jorge Cortés 👋
+Jorge Cortés
 
 **Cybersecurity Technician · Blue Team & SOC**
 
