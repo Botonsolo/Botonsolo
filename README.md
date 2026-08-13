@@ -84,7 +84,15 @@ Hands-on offensive practice to sharpen the defensive mindset — full end-to-end
 | **HackMyVM** | Soc1, gift, Hunter |
 | **VulnHub** | LazySysAdmin, Thales |
 
-📄 Write-ups for each machine available in [`security-writeups`](https://github.com/Botonsolo/security-writeups) 
+## 🕵️‍♂️ Sherlocks (HTB)
+
+DFIR-focused challenges: log analysis, incident triage, and threat hunting.
+
+| Category | Sherlock |
+|---|---|
+| DFIR | WhaleSecret |
+
+📄 Write-ups for CTFs, Sherlocks, and Forensic Analysis reports available in [`security-writeups`](https://github.com/Botonsolo/security-writeups) 
 
 ---
 
@@ -111,7 +119,7 @@ Note: hosted in a teammate's repository as the project's central hub
 - **CCNA: Switching, Routing and Wireless Essentials** — Cisco Networking Academy
 - **Introduction to Cybersecurity** — Cisco Networking Academy
 - **Network Technician Career Path** — Cisco Networking Academy
-- **AI Security** — TryHackMe *(in progress)*
+- **Forti NSE1** — FortiCloud
 
 ---
 
