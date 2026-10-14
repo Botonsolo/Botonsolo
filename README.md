@@ -83,7 +83,7 @@ Sanitized alerts and triage notes from my detection work. All personal data, hos
 
 | Date | Alert | Source | Verdict | Write-up |
 |---|---|---|---|---|
-| *YYYY-MM-DD* | *e.g. Suspicious PowerShell execution* | *Wazuh / Sysmon* | *True positive / False positive* | *[link]* |
+
 
 📂 Raw alert samples and rule tuning notes are in [`soc-alerts`](https://github.com/Botonsolo/soc-alerts) *(add link when published)*.
 
@@ -98,9 +98,9 @@ Reusable procedures and notes from my investigations.
 | Type | Document | Description |
 |---|---|---|
 | Playbook | *Phishing triage* | Steps from alert to header analysis, IOC extraction and containment |
-| Playbook | *Malware on Windows endpoint* | Triage, memory capture, persistence checks and eradication |
-| Tips | *Windows artifacts quick reference* | Prefetch, Amcache, Registry hives, event logs, what each one proves |
-| Tips | *Memory analysis with Volatility* | Common plugins and what to look for first |
+
+| Tips | *Windows registry files* | Guide for Registry files in Windows  |
+
 | Forensics | *Chain of custody and evidence handling* | RFC 3227 and ISO 27037 applied to lab work |
 
 📄 Full documents are in [`security-writeups`](https://github.com/Botonsolo/security-writeups) under `/playbooks` and `/tips`.
