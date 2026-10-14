@@ -98,9 +98,7 @@ Reusable procedures and notes from my investigations.
 | Type | Document | Description |
 |---|---|---|
 | Playbook | *Phishing triage* | Steps from alert to header analysis, IOC extraction and containment |
-
 | Tips | *Windows registry files* | Guide for Registry files in Windows  |
-
 | Forensics | *Chain of custody and evidence handling* | RFC 3227 and ISO 27037 applied to lab work |
 
 📄 Full documents are in [`security-writeups`](https://github.com/Botonsolo/security-writeups) under `/playbooks` and `/tips`.
