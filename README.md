@@ -85,7 +85,7 @@ Sanitized alerts and triage notes from my detection work. All personal data, hos
 |---|---|---|---|---|
 
 
-📂 Raw alert samples and rule tuning notes are in [`soc-alerts`](https://github.com/Botonsolo/soc-alerts) *(add link when published)*.
+📂 Raw alert samples and rule tuning notes are in [`soc-alerts`](https://github.com/Botonsolo/soc-alerts) *(soon)*.
 
 ---
 
