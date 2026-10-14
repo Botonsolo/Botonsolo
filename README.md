@@ -87,8 +87,6 @@ Sanitized alerts and triage notes from my detection work. All personal data, hos
 
 📂 Raw alert samples and rule tuning notes are in [`soc-alerts`](https://github.com/Botonsolo/soc-alerts) *(add link when published)*.
 
-> **Sanitization rule:** remove IPs, usernames, hostnames, domains and any data that belongs to a real organization before publishing.
-
 ---
 
 ## 📚 Forensic Playbooks & Tips
@@ -99,7 +97,6 @@ Reusable procedures and notes from my investigations.
 |---|---|---|
 | Playbook | *Phishing triage* | Steps from alert to header analysis, IOC extraction and containment |
 | Tips | *Windows registry files* | Guide for Registry files in Windows  |
-| Forensics | *Chain of custody and evidence handling* | RFC 3227 and ISO 27037 applied to lab work |
 
 📄 Full documents are in [`security-writeups`](https://github.com/Botonsolo/security-writeups) under `/playbooks` and `/tips`.
 
