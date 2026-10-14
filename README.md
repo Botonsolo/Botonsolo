@@ -141,6 +141,9 @@ A security-first password manager built to address a real problem: password diso
 BlueWatch is a personal SOC lab that lets me practise the full workflow of a SOC analyst in an environment I control. Wazuh collects and centralises security events, Sysmon on a Windows endpoint provides detailed process, network and file telemetry, and Suricata detects suspicious network traffic and forwards its alerts to Wazuh. This setup makes it possible to build custom detection rules, test them with controlled scenarios, and then investigate the resulting alerts, deciding whether each one is a true or false positive and documenting the reasoning.
 
 The next stages focus on turning raw alerts into evidence-based findings. That means extracting indicators of compromise, mapping observed behaviour to MITRE ATT&CK techniques, and writing up each case in a structured report. Malware analysis in an isolated sandbox and threat intelligence correlation are planned but not yet implemented, so I describe them as future work rather than current capability.
+
+I have currently halted development of the project, and it is being used solely as a sandbox for forensic analysis and both static and dynamic malware analysis.
+
 ### 🏛️ [MuniSec](https://github.com/joliher/munisec) — Secure Municipal Infrastructure
 
 A full-scope cybersecurity project simulating the complete IT infrastructure of a municipal government (Ayuntamiento de Guarromán), built with a team of 8 security specialists over two months. The lab deployed two VPN-connected sites (main office + secondary building) with segmented VLANs, Active Directory, a DMZ, and a working SOC — then subjected the environment to real penetration testing (both internal and from a rival red team) and an actual disaster-recovery scenario after an electrical storm took down the primary VPN infrastructure.
