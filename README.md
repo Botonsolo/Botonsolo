@@ -12,7 +12,7 @@ I detect, contain, and respond to real-world security incidents — not just in 
 
 ## 🧭 About Me
 
-I'm a cybersecurity technician with hands-on, production-environment experience detecting and neutralizing active threats — not just certifications and CTF flags (though I have plenty of those too). During my time at the **Ayuntamiento de Buñol**, I identified and contained **5 active security incidents** (SEO poisoning, malware) across a live multi-server environment, and built the organization's first layer of detection and response from the ground up: SIEM, IDS/IPS, network segmentation, and systematic hardening.
+I'm a cybersecurity technician with hands-on, production-environment experience detecting and neutralizing active threats — not just certifications and CTF flags (though I have plenty of those too). During my time at the **Ayuntamiento de Buñol**, I identified and contained **3 active security incidents** (SEO poisoning, malware) across a live multi-server environment, and built the organization's first layer of detection and response from the ground up: SIEM, IDS/IPS, network segmentation, and systematic hardening.
 
 I approach security through structured frameworks — **MITRE ATT&CK**, the **Cyber Kill Chain**, **OWASP** — because ad-hoc incident response doesn't scale, and documentation matters as much as detection. I reinforce this daily through offensive-side practice on CTF platforms, because understanding attacker methodology is what makes defensive work effective.
 
@@ -26,15 +26,17 @@ I'm looking to bring this into a **SOC / Blue Team** role where I can contribute
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-2E4053?style=flat)
 ![Snort](https://img.shields.io/badge/Snort_IDS%2FIPS-FF6600?style=flat)
+![Suricata](https://img.shields.io/badge/Suricata-EF3B24?style=flat)
+![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=flat)
 
 **Frameworks & Methodology**
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-D63333?style=flat)
 ![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat&logo=owasp&logoColor=white)
-Cyber Kill Chain · MITRE ATLAS
+Cyber Kill Chain · MITRE ATLAS · RFC 3227 · ISO 27037/27042
 
 **Traffic & Forensic Analysis**
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
-tcpdump
+tcpdump · Autopsy · FTK Imager · Volatility
 
 **Operating Systems**
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
@@ -43,7 +45,7 @@ tcpdump
 ![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat&logo=windows&logoColor=white)
 
 **Networking**
-TCP/IP · VLANs · Firewalls · VPNs · DNS/DHCP · Active Directory / LDAP
+TCP/IP · DNS · DHCP · VLANs · Firewalls · VPNs · Active Directory / LDAP
 
 **Monitoring**
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
@@ -75,6 +77,36 @@ TCP/IP · VLANs · Firewalls · VPNs · DNS/DHCP · Active Directory / LDAP
 
 ---
 
+## 🚨 SOC Alerts
+
+Sanitized alerts and triage notes from my detection work. All personal data, hostnames, IPs and internal domains are removed or replaced.
+
+| Date | Alert | Source | Verdict | Write-up |
+|---|---|---|---|---|
+| *YYYY-MM-DD* | *e.g. Suspicious PowerShell execution* | *Wazuh / Sysmon* | *True positive / False positive* | *[link]* |
+
+📂 Raw alert samples and rule tuning notes are in [`soc-alerts`](https://github.com/Botonsolo/soc-alerts) *(add link when published)*.
+
+> **Sanitization rule:** remove IPs, usernames, hostnames, domains and any data that belongs to a real organization before publishing.
+
+---
+
+## 📚 Forensic Playbooks & Tips
+
+Reusable procedures and notes from my investigations.
+
+| Type | Document | Description |
+|---|---|---|
+| Playbook | *Phishing triage* | Steps from alert to header analysis, IOC extraction and containment |
+| Playbook | *Malware on Windows endpoint* | Triage, memory capture, persistence checks and eradication |
+| Tips | *Windows artifacts quick reference* | Prefetch, Amcache, Registry hives, event logs, what each one proves |
+| Tips | *Memory analysis with Volatility* | Common plugins and what to look for first |
+| Forensics | *Chain of custody and evidence handling* | RFC 3227 and ISO 27037 applied to lab work |
+
+📄 Full documents are in [`security-writeups`](https://github.com/Botonsolo/security-writeups) under `/playbooks` and `/tips`.
+
+---
+
 ## 🚩 CTF Practice
 
 Hands-on offensive practice to sharpen the defensive mindset — full end-to-end compromise and analysis: enumeration, exploitation, privilege escalation, and forensic log review to reconstruct the attack vector.
@@ -84,41 +116,52 @@ Hands-on offensive practice to sharpen the defensive mindset — full end-to-end
 | **HackMyVM** | Soc1, gift, Hunter |
 | **VulnHub** | LazySysAdmin, Thales |
 
+---
+
 ## 🕵️‍♂️ Sherlocks (HTB)
 
 DFIR-focused challenges: log analysis, incident triage, and threat hunting.
 
-| Category | Sherlock |
-|---|---|
-| DFIR | WhaleSecret |
+| Category | Sherlock | Difficulty |
+|---|---|---|
+| DFIR | WhaleSecret | — |
+| DFIR | Kraken (Mid Diff) | Medium |
+| DFIR | Registry Hive (Mid Diff) | Medium |
 
-📄 Write-ups for CTFs, Sherlocks, and Forensic Analysis reports available in [`security-writeups`](https://github.com/Botonsolo/security-writeups) 
+📄 Write-ups for CTFs, Sherlocks, and Forensic Analysis reports available in [`security-writeups`](https://github.com/Botonsolo/security-writeups)
 
 ---
 
-## 📌 Featured Projects
+## 🔐 Featured Projects
 
-### 🔐 [SecPass](https://github.com/Botonsolo/secPass) — Password Manager
+### [SecPass](https://github.com/Botonsolo/secPass) — Password Manager
 
 A security-first password manager built to address a real problem: password disorder, credential reuse, and predictable/personally-guessable passwords. Designed with a documented threat model, defense-in-depth principles, and a roadmap toward a hardened client-server architecture.
 
+### [PhishGuard](https://github.com/Botonsolo/phishguard-suite) — Phishing Detection Suite
 
-### 🏛️ [MuniSec](https://github.com/joliher/munisec) — Secure Municipal Infrastructure    
+A Python tool that parses `.eml` files, analyzes email headers, applies a scoring model and maps indicators to MITRE ATT&CK techniques.
+
+### 🏛️ [MuniSec](https://github.com/joliher/munisec) — Secure Municipal Infrastructure
 
 A full-scope cybersecurity project simulating the complete IT infrastructure of a municipal government (Ayuntamiento de Guarromán), built with a team of 8 security specialists over two months. The lab deployed two VPN-connected sites (main office + secondary building) with segmented VLANs, Active Directory, a DMZ, and a working SOC — then subjected the environment to real penetration testing (both internal and from a rival red team) and an actual disaster-recovery scenario after an electrical storm took down the primary VPN infrastructure.
 
 Scope covered: network architecture & VLAN segmentation · SOC/SIEM (Wazuh, Suricata) · deep hardening (2FA, iptables) · incident response & disaster recovery · digital forensics (memory analysis, automation scripts) · OSINT reconnaissance methodology · full red team engagement (initial access → root) · ENS/RGPD regulatory compliance mapping.
 
-Note: hosted in a teammate's repository as the project's central hub
+*Team project hosted in a teammate's repository as the central hub.*
+
 ---
 
 ## 📜 Certifications & Training
 
-- **Security Analyst Level 1** — TryHackMe
+- **Security Analyst Level 1 (SAL1)** — TryHackMe
+- **Certified Computer Forensic Analyst (CCFA)** — eSecurity Institute
 - **CCNA: Introduction to Networks** — Cisco Networking Academy
 - **CCNA: Switching, Routing and Wireless Essentials** — Cisco Networking Academy
 - **Introduction to Cybersecurity** — Cisco Networking Academy
 - **Network Technician Career Path** — Cisco Networking Academy
+- **Esquema Nacional de Seguridad (RD 311/2022)** — 4 courses, 115h
+- **Metodología de adecuación al μCeENS** — 75h
 - **Forti NSE1** — FortiCloud
 
 ---
